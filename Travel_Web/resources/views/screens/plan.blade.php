@@ -80,7 +80,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{{ $plan->title }}</h5>
-                        <p class="card-text">{{ $plan->status }}</p>
+{{--                        <p class="card-text">{{ $plan->status }}</p>--}}
                         <p class="card-price">{{ $plan->start_date }}-{{ $plan->start_date }}</p>
                     </div>
                 </div>

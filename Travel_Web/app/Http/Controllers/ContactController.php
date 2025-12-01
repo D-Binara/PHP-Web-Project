@@ -18,7 +18,7 @@ class ContactController extends Controller
         ]);
 
         // Send email
-        Mail::to('dbkweerasekara@appsc.sab.ac.lk')->send(new ContactFormMail($details));
+        Mail::to('dbkaveesha@gmail.com')->send(new ContactFormMail($details));
 
         return back()->with('success', 'Your message was sent successfully!');
     }
